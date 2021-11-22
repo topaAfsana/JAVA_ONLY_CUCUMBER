@@ -1,0 +1,360 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-22T20:45:59.018Z",
+        "line": 5,
+        "name": "User able to Log in Facebook",
+        "description": "",
+        "id": "user-is-able-to-perform-expoense-functionality;user-able-to-log-in-facebook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2449000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User naviaget to Facebook",
+            "match": {
+              "location": "QA.Stepdefs.stepdef1.user_naviaget_to_facebook()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@WIP"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-22T20:45:59.078Z",
+        "line": 10,
+        "name": "User able to Log in Facebook with cucumber Data Table1",
+        "description": "",
+        "id": "user-is-able-to-perform-expoense-functionality;user-able-to-log-in-facebook-with-cucumber-data-table1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 303000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User naviaget to Facebook",
+            "match": {
+              "location": "QA.Stepdefs.stepdef1.user_naviaget_to_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2434000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter data Inquiry information in form as below",
+            "match": {
+              "location": "QA.Stepdefs.stepdef1.user_enter_data_inquiry_information_in_form_as_below(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UscisOffice",
+                  "Receipt",
+                  "Visa",
+                  "G28match",
+                  "ReasonForinquiry"
+                ]
+              },
+              {
+                "cells": [
+                  "WRO",
+                  "ABC123456789",
+                  "1B2",
+                  "YES",
+                  "Business Activity"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-22T20:45:59.086Z",
+        "line": 18,
+        "name": "User able to Log in Facebook1 with cucumber Data Table2",
+        "description": "",
+        "id": "user-is-able-to-perform-expoense-functionality;user-able-to-log-in-facebook1-with-cucumber-data-table2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 210000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User naviaget to Facebook",
+            "match": {
+              "location": "QA.Stepdefs.stepdef1.user_naviaget_to_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 557000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter 2nd data Inquiry information in form as below",
+            "match": {
+              "location": "QA.Stepdefs.stepdef1.user_enter_2nd_data_inquiry_information_in_form_as_below(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "DUNS",
+                  "PHONE",
+                  "COMPANY",
+                  "STREET",
+                  "CITY",
+                  "ZIP",
+                  "STATE",
+                  "COUNTRY"
+                ]
+              },
+              {
+                "cells": [
+                  "N/A",
+                  "N/A",
+                  "TEST_AFSANA_ORG1",
+                  "200 ST",
+                  "ARLINGTON",
+                  "222",
+                  "Virginia- VA",
+                  "UNITED STATES"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-22T20:45:59.092Z",
+        "line": 27,
+        "name": "User able to Log in Facebook2 with cucumber Data Table3",
+        "description": "",
+        "id": "user-is-able-to-perform-expoense-functionality;user-able-to-log-in-facebook2-with-cucumber-data-table3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User naviaget to Facebook",
+            "match": {
+              "location": "QA.Stepdefs.stepdef1.user_naviaget_to_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1811000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enter 3nd data Inquiry information in form as below",
+            "match": {
+              "location": "QA.Stepdefs.stepdef1.user_enter_3nd_data_inquiry_information_in_form_as_below(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "searchType",
+                  "searchData"
+                ]
+              },
+              {
+                "cells": [
+                  "Receipt Number",
+                  "SRC119008890"
+                ]
+              },
+              {
+                "cells": [
+                  "Inquiry DUN",
+                  "964392237"
+                ]
+              },
+              {
+                "cells": [
+                  "COompany Name",
+                  "Afsana Org"
+                ]
+              },
+              {
+                "cells": [
+                  "Added By",
+                  "aktopa"
+                ]
+              },
+              {
+                "cells": [
+                  "Resolution",
+                  "Resolved by Scops"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-22T20:45:59.099Z",
+        "line": 39,
+        "name": "User able to Log in Facebook3 with cucumber Data Table3",
+        "description": "",
+        "id": "user-is-able-to-perform-expoense-functionality;user-able-to-log-in-facebook3-with-cucumber-data-table3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1289000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User naviaget to Facebook",
+            "match": {
+              "location": "QA.Stepdefs.stepdef1.user_naviaget_to_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 543000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User enter 4th data Inquiry information in form as below",
+            "match": {
+              "location": "QA.Stepdefs.stepdef1.user_enter_4th_data_inquiry_information_in_form_as_below(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Names"
+                ]
+              },
+              {
+                "cells": [
+                  "Topa"
+                ]
+              },
+              {
+                "cells": [
+                  "Toma"
+                ]
+              },
+              {
+                "cells": [
+                  "Jafrin"
+                ]
+              },
+              {
+                "cells": [
+                  "Tanjim"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@Now"
+          }
+        ]
+      }
+    ],
+    "name": "User is able to perform Expoense functionality",
+    "description": "",
+    "id": "user-is-able-to-perform-expoense-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/QA/Features/feat1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-22T20:45:59.108Z",
+        "line": 5,
+        "name": "User able to Log in Facebook",
+        "description": "",
+        "id": "user-is-able-to-perform-expoense-functionality;user-able-to-log-in-facebook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2895284000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User go to Facebook",
+            "match": {
+              "location": "QA.Stepdefs.stepdef2.user_go_to_facebook()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@topa"
+          }
+        ]
+      }
+    ],
+    "name": "User is able to perform Expoense functionality",
+    "description": "",
+    "id": "user-is-able-to-perform-expoense-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/QA/Features/feat2.feature",
+    "tags": []
+  }
+]
